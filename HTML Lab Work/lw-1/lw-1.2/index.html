@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Scientists Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #000;
+        }
+        h1 {
+            text-align: center;
+        }
+        .scientist-item {
+            margin-bottom: 30px;
+        }
+        .scientist-img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .footer-marquee {
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #ffcc00;
+            padding: 2px 8px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #000;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔬 Famous Scientists Gallery</h1>
+
+    <marquee behavior="scroll" direction="left">
+        <i>"Science knows no country, because knowledge belongs to humanity..." — Louis Pasteur</i>
+    </marquee>
+
+    <hr>
+
+    <h2>👥 Meet the Scientists</h2>
+    <p>Here are some of the greatest minds in science. Their discoveries shaped the world we live in today:</p>
+
+    <ol type="A">
+        <li class="scientist-item">
+            <h3>Albert Einstein</h3>
+            <img src="einstein.jpg" alt="Albert Einstein" class="scientist-img">
+            <p>Famous for the theory of relativity: <b>E = mc<sup>2</sup></b></p>
+            <p>Learn more: <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia</a></p>
+        </li>
+
+        <li class="scientist-item">
+            <h3>Marie Curie</h3>
+            <img src="curie.jpg" alt="Marie Curie" class="scientist-img">
+            <p>Discovered <mark>radium</mark> and <mark>polonium</mark>, pioneered research in radioactivity.</p>
+            <p>Learn more: <a href="https://en.wikipedia.org/wiki/Marie_Curie" target="_blank">Wikipedia</a></p>
+        </li>
+
+        <li class="scientist-item">
+            <h3>Isaac Newton</h3>
+            <img src="newton.jpg" alt="Isaac Newton" class="scientist-img">
+            <p>Known for the laws of motion and <mark>gravity</mark>.</p>
+            <p>Formula: F = ma (Force = mass * acceleration)</p>
+            <p>Learn more: <a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">Wikipedia</a></p>
+        </li>
+
+        <li class="scientist-item">
+            <h3>Rosalind Franklin</h3>
+            <img src="franklin.jpg" alt="Rosalind Franklin" class="scientist-img">
+            <p>Contributed to the discovery of DNA structure.</p>
+            <p>DNA model: A, T, G, C base pairs held by hydrogen bonds in a double helix.</p>
+            <p>H<sub>2</sub>O structure was part of her X-ray crystallographic studies.</p>
+            <p>Learn more: <a href="https://en.wikipedia.org/wiki/Rosalind_Franklin" target="_blank">Wikipedia</a></p>
+        </li>
+    </ol>
+
+    <div class="footer-marquee">
+        <marquee behavior="scroll" direction="left">
+            🌎 The world changed because of science! 
+            <a href="#" class="btn">Explore. Discover. Inspire.</a>
+        </marquee>
+    </div>
+
+</body>
+</html>
